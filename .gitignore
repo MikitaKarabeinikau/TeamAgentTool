@@ -1,0 +1,6 @@
+.env
+venv
+privateReadme.md
+__pycache__/
+*.pyc
+ideas.txt

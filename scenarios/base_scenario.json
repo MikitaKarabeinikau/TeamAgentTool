@@ -1,0 +1,259 @@
+{
+    "phase_0": {
+        "description": "Phase 0: Interpreter and Formaliztion",
+        "tasks": [],
+        "role focus": [],
+        "primary agent": "Business Interpreter",
+        "sub-agents": [],
+        "output": [
+            "Formal Business Request Document",
+            "Requirements V1.0 Draft"
+        ],
+        "inter-agent-communication": [],
+        "status": "REQUEST",
+        "attachmnets": [
+            "business_requirements.json",
+            "requirements_v1.0_draft.txt"
+        ]
+    },
+    "phase_1": {
+        "description": "Phase 1: Requirements Validation and Definition",
+        "tasks": [],
+        "role focus": [],
+        "primary agent": "Business Analyst",
+        "sub-agents": [
+            "Business Interpreter",
+            "Project Manager"
+        ],
+        "output": [
+            "Detailed Acceptance Criteria",
+            "Detailed Requirements Document V1.0",
+            "Requirements Traceability Matrix"
+        ],
+        "inter-agent-communication": [
+            {
+                "from": "Business Analyst",
+                "to": "Business Interpreter",
+                "message": "Request for clarification on formal business request document."
+            },
+            {
+                "from": "Business Analyst",
+                "to": "Project Manager",
+                "message": "Discuss project scope and timelines based on initial requirements."
+            }
+        ],
+        "status": "REQUEST",
+        "attachmnets": [
+            "detailed_requirements_v1.0.txt",
+            "detailed_acceptance_criteria.txt",
+            "requirements_traceability_matrix.xlsx"
+        ]
+    },
+    "phase_2": {
+        "description": "Phase 2: Technical Architecture and Design",
+        "tasks": [],
+        "role focus": [],
+        "primary agent": "Solution Architect",
+        "sub-agents": [
+            "Lead Developer",
+            "Project Manager"
+        ],
+        "output": [
+            "Technical Design Document",
+            "Technical Architecture Document",
+            "System Architecture Document"
+        ],
+        "inter-agent-communication": [
+            {
+                "from": "Solution Architect",
+                "to": "Lead Developer",
+                "message": "Collaborate on technical design and architecture details."
+            },
+            {
+                "from": "Solution Architect",
+                "to": "Lead Developer",
+                "message": "Practical inputs for system architecture considerations."
+            },
+            {
+                "from": "Solution Architect",
+                "to": "Project Manager",
+                "message": "Align technical architecture with project timelines and resources."
+            }
+        ],
+        "status": "REQUEST",
+        "attachmnets": [
+            "technical_design_document.txt",
+            "technical_architecture_document.txt",
+            "system_architecture_document.txt"
+        ]
+    },
+    "phase_3": {
+        "description": "Phase 3: Execution Planning and Decomposition",
+        "tasks": [],
+        "role focus": [],
+        "primary agent": "Project Manager",
+        "sub-agents": [
+            "Business Analyst",
+            "Lead Developer"
+        ],
+        "output": [
+            "Word Breakdown Structure (WBS)",
+            "Effort Estimation Document",
+            "Project Schedule",
+            "Resource Allocation Plan"
+        ],
+        "inter-agent-communication": [
+            {
+                "from": "Project Manager",
+                "to": "Business Analyst",
+                "message": "Clarify requirements for accurate task decomposition."
+            },
+            {
+                "from": "Project Manager",
+                "to": "Lead Developer",
+                "message": "Work on task breakdown and resource allocation."
+            },
+            {
+                "from": "Project Manager",
+                "to": "Lead Developer",
+                "message": "Discuss technical tasks and effort estimation."
+            }
+        ],
+        "status": "REQUEST",
+        "attachmnets": [
+            "word_breakdown_structure.txt",
+            "effort_estimation_document.txt",
+            "project_schedule.txt",
+            "resource_allocation_plan.txt"
+        ]
+    },
+    "phase_4": {
+        "description": "Phase 4: Development and Environment Setup",
+        "tasks": [],
+        "role focus": [],
+        "primary agent": "Lead Developer",
+        "sub-agents": [
+            "Solution Architect",
+            "Project Manager"
+        ],
+        "output": [
+            "Development Environment Setup Document",
+            "Codebase Repository Structure",
+            "Initial Code Modules",
+            "CI/CD Pipeline Configuration"
+        ],
+        "inter-agent-communication": [
+            {
+                "from": "Lead Developer",
+                "to": "Solution Architect",
+                "message": "Ensure development aligns with technical architecture and guidelines."
+            },
+            {
+                "from": "Lead Developer",
+                "to": "Project Manager",
+                "message": "Provide updates on development progress and any resource needs."
+            }
+        ],
+        "status": "REQUEST",
+        "attachmnets": [
+            "development_environment_setup.txt",
+            "codebase_repository_structure.txt",
+            "initial_code_modules.txt",
+            "ci_cd_pipeline_configuration.txt"
+        ]
+    },
+    "phase_5": {
+        "description": "Phase 5: Project Kick-off and Formal Commitment",
+        "tasks": [],
+        "role focus": [],
+        "primary agent": "Project Manager",
+        "sub-agents": [
+            "Business Analyst",
+            "Lead Developer",
+            "Solution Architect",
+            "Business Interpreter"
+        ],
+        "output": [
+            "Project Kick-off Meeting Agenda",
+            "Project Charter Document",
+            "Stakeholder Commitment Records",
+            "Final Project Execution Plan",
+            "Communication Plan"
+        ],
+        "inter-agent-communication": [
+            {
+                "from": "Project Manager",
+                "to": "Business Analyst",
+                "message": "Coordinate final preparations for project kick-off and ensure all stakeholders are aligned."
+            },
+            {
+                "from": "Project Manager",
+                "to": "Lead Developer",
+                "message": "Confirm development readiness and address any last-minute concerns."
+            },
+            {
+                "from": "Project Manager",
+                "to": "Solution Architect",
+                "message": "Review technical aspects to be presented during the kick-off."
+            },
+            {
+                "from": "Project Manager",
+                "to": "Business Interpreter",
+                "message": "Ensure clarity of business objectives for all stakeholders."
+            }
+        ],
+        "status": "REQUEST",
+        "attachmnets": [
+            "project_kickoff_meeting_agenda.txt",
+            "project_charter_document.txt",
+            "stakeholder_commitment_records.txt",
+            "final_project_execution_plan.txt",
+            "communication_plan.txt"
+        ]
+    },
+    "phase_6": {
+        "description": "Phase 6: Create a Queue System for Task Management",
+        "tasks": [],
+        "role focus": [],
+        "primary agent": "Project Manager",
+        "sub-agents": [
+            "Business Analyst",
+            "Lead Developer",
+            "Solution Architect",
+            "Business Interpreter"
+        ],
+        "output": [
+            "Task Queue System Design Document",
+            "Task Prioritization Criteria",
+            "Implementation Plan for Task Queue System"
+        ],
+        "inter-agent-communication": [
+            {
+                "from": "Project Manager",
+                "to": "Business Analyst",
+                "message": "Gather requirements for the task queue system."
+            },
+            {
+                "from": "Project Manager",
+                "to": "Lead Developer",
+                "message": "Discuss technical implementation of the task queue system."
+            },
+            {
+                "from": "Project Manager",
+                "to": "Solution Architect",
+                "message": "Ensure the task queue system aligns with overall project architecture."
+            },
+            {
+                "from": "Project Manager",
+                "to": "Business Interpreter",
+                "message": "Clarify business needs for task management."
+            }
+        ],
+        "status": "REQUEST",
+        "attachmnets": [
+            "task_queue_system_design_document.txt",
+            "task_prioritization_criteria.txt",
+            "implementation_plan_for_task_queue_system.txt"
+        ]
+    }
+}

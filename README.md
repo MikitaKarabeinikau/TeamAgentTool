@@ -12,23 +12,23 @@ Each agent explains its reasoning, providing transparency and education for new 
 
 ## ✨ Key Features
 
-Idea → Business Requirements
-Converts informal user ideas into formal business language, user stories, and acceptance criteria.
+**Idea → Business Requirements**<br>
+- Converts informal user ideas into formal business language, user stories, and acceptance criteria.
 
-Automated Project Planning
-Generates a complete development plan, including milestones, tasks, and dependencies.
+**Automated Project Planning**<br> 
+- Generates a complete development plan, including milestones, tasks, and dependencies.
 
-Dynamic To-Do Lists
-Automatically updates tasks when new features or ideas are added.
+**Dynamic To-Do Lists**<br>
+- Automatically updates tasks when new features or ideas are added.
 
-Automated Code Review & Testing Suggestions
-Agents offer testing strategies, code-review hints, and implementation considerations.
+**Automated Code Review & Testing Suggestions**<br>
+- Agents offer testing strategies, code-review hints, and implementation considerations.
 
-Team Workflow Simulation
-Helps new developers understand roles such as product owner, developer, tester, and reviewer.
+**Team Workflow Simulation**<br>
+- Helps new developers understand roles such as product owner, developer, tester, and reviewer.
 
-Explainable AI Decisions
-Every agent must provide reasoning and arguments behind each decision.
+**Explainable AI Decisions**<br>
+- Every agent must provide reasoning and arguments behind each decision.
 
-Guidebook of Decisions
-All decisions and their explanations form a growing “living book” for learning and reference.
+**Guidebook of Decisions**<br>
+- All decisions and their explanations form a growing “living book” for learning and reference.
